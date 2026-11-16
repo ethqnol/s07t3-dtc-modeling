@@ -1,0 +1,129 @@
+roll_id,sku_code,product_name,variant_code,copy_index,category,outer_diameter_cm,roll_height_cm,has_core,is_rush_priority,assigned_mechanism,assigned_slot,home_tier,bay_side,x_center_cm
+32,Garlic and Onion Clean Crackers [B],Garlic and Onion Clean Crackers,B,1,Crackers,16.0,22.0,True,False,pegboard_ovh,R3-PEG-R1-C1,3,Left(0-60cm),7.5
+28,Garlic and Onion Clean Crackers [A],Garlic and Onion Clean Crackers,A,1,Crackers,11.0,8.5,True,False,pegboard_ovh,R3-PEG-R1-C2,3,Left(0-60cm),22.5
+46,Sweet + Spicy Granola [A],Sweet + Spicy Granola,A,1,Granola / sprinkle,14.3,22.1,True,False,pegboard_ovh,R3-PEG-R1-C3,3,Left(0-60cm),37.5
+47,Sweet + Spicy Granola [B],Sweet + Spicy Granola,B,1,Granola / sprinkle,12.0,6.5,True,False,pegboard_ovh,R3-PEG-R1-C4,3,Left(0-60cm),52.5
+98,Chia Leah Hand Crafted Soup [A],Chia Leah Hand Crafted Soup,A,1,Soup,10.0,8.0,True,False,pegboard_ovh,R3-PEG-R1-C5,3,Right(60-120cm),67.5
+83,Chia Leah Macro Bowl [A],Chia Leah Macro Bowl,A,1,Bowls,9.0,8.0,True,False,pegboard_ovh,R3-PEG-R1-C6,3,Right(60-120cm),82.5
+101,Hummus Tumeric and Black Pepper [A],Hummus Tumeric and Black Pepper,A,1,Hummus,8.0,8.0,True,False,pegboard_ovh,R3-PEG-R1-C7,3,Right(60-120cm),97.5
+92,Peanut Butter & Banana Overnight Oats [A],Peanut Butter & Banana Overnight Oats,A,1,Oats,9.5,8.0,True,False,pegboard_ovh,R3-PEG-R1-C8,3,Right(60-120cm),112.5
+0,Peppermint Dark Chocolate Bark [A],Peppermint Dark Chocolate Bark,A,1,Chocolate bark,8.7,16.0,True,False,pegboard_ovh,R3-PEG-R2-C1,3,Left(0-60cm),7.5
+1,Peppermint Dark Chocolate Bark [B],Peppermint Dark Chocolate Bark,B,1,Chocolate bark,10.2,7.7,True,False,pegboard_ovh,R3-PEG-R2-C2,3,Left(0-60cm),22.5
+95,Sublime Mango [A],Sublime Mango,A,1,Other,11.6,8.0,True,False,pegboard_ovh,R3-PEG-R2-C3,3,Left(0-60cm),37.5
+8,Super Food Dark Chocolate Bark (Nut Free) [A],Super Food Dark Chocolate Bark (Nut Free),A,1,Chocolate bark,10.6,22.0,True,False,pegboard_ovh,R3-PEG-R2-C4,3,Left(0-60cm),52.5
+9,Super Food Dark Chocolate Bark (Nut Free) [B],Super Food Dark Chocolate Bark (Nut Free),B,1,Chocolate bark,8.5,8.0,True,False,pegboard_ovh,R3-PEG-R2-C5,3,Right(60-120cm),67.5
+15,Dark Chocolate Bark Ingredient Sticker [A],Dark Chocolate Bark Ingredient Sticker,A,1,Ingredient sticker,8.5,13.5,True,False,pegboard_ovh,R3-PEG-R2-C6,3,Right(60-120cm),82.5
+14,Peppermint Dark Chocolate Bark Ingredient Sticker [A],Peppermint Dark Chocolate Bark Ingredient Sticker,A,1,Ingredient sticker,8.7,14.0,True,False,pegboard_ovh,R3-PEG-R2-C7,3,Right(60-120cm),97.5
+12,Crumble: Super Food Dark Chocolate Bark [A],Crumble: Super Food Dark Chocolate Bark,A,1,Chocolate bark,11.0,4.5,True,False,pegboard_ovh,R3-PEG-R2-C8,3,Right(60-120cm),112.5
+86,Lemon Blueberry Pie Bowl [A],Lemon Blueberry Pie Bowl,A,1,Bowls,9.2,8.2,True,False,pegboard_ovh,R3-PEG-R3-C1,3,Left(0-60cm),7.5
+16,Mint Dark Chocolate Bark [A],Mint Dark Chocolate Bark,A,1,Chocolate bark,12.6,22.2,True,False,pegboard_ovh,R3-PEG-R3-C2,3,Left(0-60cm),22.5
+17,Mint Dark Chocolate Bark [B],Mint Dark Chocolate Bark,B,1,Chocolate bark,10.0,7.2,True,False,pegboard_ovh,R3-PEG-R3-C3,3,Left(0-60cm),37.5
+4,All You Need Is Love [A],All You Need Is Love,A,1,Other,9.0,16.0,True,False,pegboard_ovh,R3-PEG-R3-C4,3,Left(0-60cm),52.5
+125,Braniac Cookies [A],Braniac Cookies,A,1,Cookies,15.0,8.0,True,False,pegboard_ovh,R3-PEG-R3-C5,3,Right(60-120cm),67.5
+105,Chocolate Chip Cherry Pie Bowl [A],Chocolate Chip Cherry Pie Bowl,A,1,Bowls,10.0,8.0,True,False,pegboard_ovh,R3-PEG-R3-C6,3,Right(60-120cm),82.5
+33,Maple & Olive Oil Quinoa Sprinkle [A],Maple & Olive Oil Quinoa Sprinkle,A,1,Granola / sprinkle,12.5,22.0,True,False,pegboard_ovh,R3-PEG-R3-C7,3,Right(60-120cm),97.5
+19,Roasted Carrot Ginger Soup [A],Roasted Carrot Ginger Soup,A,1,Soup,8.3,22.2,True,False,pegboard_ovh,R3-PEG-R3-C8,3,Right(60-120cm),112.5
+90,Roasted Beet Hummus [A],Roasted Beet Hummus,A,1,Hummus,13.0,8.3,True,False,pegboard_ovh,R3-PEG-R4-C1,3,Left(0-60cm),7.5
+91,Roasted Beet Hummus [B],Roasted Beet Hummus,B,1,Hummus,13.5,8.5,True,False,pegboard_ovh,R3-PEG-R4-C2,3,Left(0-60cm),22.5
+62,Rosemary Boost Clean Crackers [A],Rosemary Boost Clean Crackers,A,1,Crackers,12.3,22.0,True,False,pegboard_ovh,R3-PEG-R4-C3,3,Left(0-60cm),37.5
+5,Super Food Dark Chocolate Bark [A],Super Food Dark Chocolate Bark,A,1,Chocolate bark,8.5,16.0,True,False,pegboard_ovh,R3-PEG-R4-C4,3,Left(0-60cm),52.5
+6,Super Food Dark Chocolate Bark [B],Super Food Dark Chocolate Bark,B,1,Chocolate bark,10.0,22.0,True,False,pegboard_ovh,R3-PEG-R4-C5,3,Right(60-120cm),67.5
+7,Super Food Dark Chocolate Bark [C],Super Food Dark Chocolate Bark,C,1,Chocolate bark,9.0,8.0,True,False,pegboard_ovh,R3-PEG-R4-C6,3,Right(60-120cm),82.5
+88,Chia Leah Fresh Salad [A],Chia Leah Fresh Salad,A,1,Salad,11.0,8.0,True,True,split_drawer_eye,R1-DRW-1-P1,1,Left(0-60cm),8.571428571428571
+89,Chia Leah Fresh Salad [A],Chia Leah Fresh Salad,A,2,Salad,11.0,8.0,True,True,split_drawer_eye,R1-DRW-1-P1,1,Left(0-60cm),8.571428571428571
+110,Grain Free Brownie Bites [A],Grain Free Brownie Bites,A,1,Bites,14.0,7.0,True,True,split_drawer_eye,R1-DRW-1-P2,1,Left(0-60cm),8.571428571428571
+111,Grain Free Brownie Bites [A],Grain Free Brownie Bites,A,2,Bites,14.0,7.0,True,True,split_drawer_eye,R1-DRW-1-P2,1,Left(0-60cm),8.571428571428571
+112,Grain Free Brownie Bites [B],Grain Free Brownie Bites,B,1,Bites,23.0,7.5,True,True,split_drawer_eye,R1-DRW-1-P3,1,Left(0-60cm),8.571428571428571
+126,Sunny Chocolate Chip Breakfast Cookie [A],Sunny Chocolate Chip Breakfast Cookie,A,1,Cookies,8.5,8.0,True,True,split_drawer_eye,R1-DRW-1-P4,1,Left(0-60cm),8.571428571428571
+127,Sunny Chocolate Chip Breakfast Cookie [A],Sunny Chocolate Chip Breakfast Cookie,A,2,Cookies,8.5,8.0,True,True,split_drawer_eye,R1-DRW-1-P4,1,Left(0-60cm),8.571428571428571
+72,Cookie Dough Clean Bites [A],Cookie Dough Clean Bites,A,1,Bites,13.5,24.3,True,True,split_drawer_eye,R1-DRW-2-P1,1,Left(0-60cm),25.714285714285715
+73,Cookie Dough Clean Bites [A],Cookie Dough Clean Bites,A,2,Bites,13.5,24.3,True,True,split_drawer_eye,R1-DRW-2-P1,1,Left(0-60cm),25.714285714285715
+74,Cookie Dough Clean Bites [B],Cookie Dough Clean Bites,B,1,Bites,15.0,8.0,True,True,split_drawer_eye,R1-DRW-2-P2,1,Left(0-60cm),25.714285714285715
+75,Cookie Dough Clean Bites [B],Cookie Dough Clean Bites,B,2,Bites,15.0,8.0,True,True,split_drawer_eye,R1-DRW-2-P2,1,Left(0-60cm),25.714285714285715
+119,Peppermint Kisses [A],Peppermint Kisses,A,1,Bites,10.0,12.0,True,True,split_drawer_eye,R1-DRW-2-P3,1,Left(0-60cm),25.714285714285715
+120,Peppermint Kisses [A],Peppermint Kisses,A,2,Bites,10.0,12.0,True,True,split_drawer_eye,R1-DRW-2-P3,1,Left(0-60cm),25.714285714285715
+122,Zucchini Breakfast Cookie [A],Zucchini Breakfast Cookie,A,1,Cookies,11.0,7.0,True,True,split_drawer_eye,R1-DRW-2-P4,1,Left(0-60cm),25.714285714285715
+123,Zucchini Breakfast Cookie [A],Zucchini Breakfast Cookie,A,2,Cookies,11.0,7.0,True,True,split_drawer_eye,R1-DRW-2-P4,1,Left(0-60cm),25.714285714285715
+77,Orange Lavendar Clean Bites [A],Orange Lavendar Clean Bites,A,1,Bites,11.3,24.4,True,True,split_drawer_eye,R1-DRW-3-P1,1,Left(0-60cm),42.857142857142854
+78,Orange Lavendar Clean Bites [A],Orange Lavendar Clean Bites,A,2,Bites,11.3,24.4,True,True,split_drawer_eye,R1-DRW-3-P1,1,Left(0-60cm),42.857142857142854
+79,Orange Lavendar Clean Bites [B],Orange Lavendar Clean Bites,B,1,Bites,9.0,8.0,True,True,split_drawer_eye,R1-DRW-3-P2,1,Left(0-60cm),42.857142857142854
+80,Orange Lavendar Clean Bites [B],Orange Lavendar Clean Bites,B,2,Bites,9.0,8.0,True,True,split_drawer_eye,R1-DRW-3-P2,1,Left(0-60cm),42.857142857142854
+20,Peppermint Clean Bites [A],Peppermint Clean Bites,A,1,Bites,10.5,24.0,True,True,split_drawer_eye,R1-DRW-3-P3,1,Left(0-60cm),42.857142857142854
+21,Peppermint Clean Bites [B],Peppermint Clean Bites,B,1,Bites,11.8,8.2,True,True,split_drawer_eye,R1-DRW-3-P4,1,Left(0-60cm),42.857142857142854
+22,Peppermint Clean Bites [B],Peppermint Clean Bites,B,2,Bites,11.8,8.2,True,True,split_drawer_eye,R1-DRW-3-P4,1,Left(0-60cm),42.857142857142854
+63,PB & J Clean Bites [A],PB & J Clean Bites,A,1,Bites,12.0,24.2,True,True,split_drawer_eye,R1-DRW-4-P1,1,Right(60-120cm),60.0
+64,PB & J Clean Bites [A],PB & J Clean Bites,A,2,Bites,12.0,24.2,True,True,split_drawer_eye,R1-DRW-4-P1,1,Right(60-120cm),60.0
+65,PB & J Clean Bites [B],PB & J Clean Bites,B,1,Bites,10.0,8.0,True,True,split_drawer_eye,R1-DRW-4-P2,1,Right(60-120cm),60.0
+66,PB & J Clean Bites [B],PB & J Clean Bites,B,2,Bites,10.0,8.0,True,True,split_drawer_eye,R1-DRW-4-P2,1,Right(60-120cm),60.0
+51,Cherry Bomb Clean Bites [A],Cherry Bomb Clean Bites,A,1,Bites,9.3,24.5,True,True,split_drawer_eye,R1-DRW-4-P3,1,Right(60-120cm),60.0
+52,Cherry Bomb Clean Bites [A],Cherry Bomb Clean Bites,A,2,Bites,9.3,24.5,True,True,split_drawer_eye,R1-DRW-4-P3,1,Right(60-120cm),60.0
+53,Cherry Bomb Clean Bites [B],Cherry Bomb Clean Bites,B,1,Bites,13.0,8.0,True,True,split_drawer_eye,R1-DRW-4-P4,1,Right(60-120cm),60.0
+54,Cherry Bomb Clean Bites [B],Cherry Bomb Clean Bites,B,2,Bites,13.0,8.0,True,True,split_drawer_eye,R1-DRW-4-P4,1,Right(60-120cm),60.0
+113,Carrot Cake Clean Bites [A],Carrot Cake Clean Bites,A,1,Bites,13.7,8.0,True,True,split_drawer_eye,R1-DRW-5-P1,1,Right(60-120cm),77.14285714285714
+114,Carrot Cake Clean Bites [A],Carrot Cake Clean Bites,A,2,Bites,13.7,8.0,True,True,split_drawer_eye,R1-DRW-5-P1,1,Right(60-120cm),77.14285714285714
+117,Carrot Cake Clean Bites [B],Carrot Cake Clean Bites,B,1,Bites,5.0,24.3,True,True,split_drawer_eye,R1-DRW-5-P2,1,Right(60-120cm),77.14285714285714
+118,Carrot Cake Clean Bites [B],Carrot Cake Clean Bites,B,2,Bites,5.0,24.3,True,True,split_drawer_eye,R1-DRW-5-P2,1,Right(60-120cm),77.14285714285714
+34,Lemon and Rosemary Clean Bites [A],Lemon and Rosemary Clean Bites,A,1,Bites,10.0,24.3,True,True,split_drawer_eye,R1-DRW-5-P3,1,Right(60-120cm),77.14285714285714
+35,Lemon and Rosemary Clean Bites [B],Lemon and Rosemary Clean Bites,B,1,Bites,9.5,8.0,True,True,split_drawer_eye,R1-DRW-5-P4,1,Right(60-120cm),77.14285714285714
+36,Lemon and Rosemary Clean Bites [B],Lemon and Rosemary Clean Bites,B,2,Bites,9.5,8.0,True,True,split_drawer_eye,R1-DRW-5-P4,1,Right(60-120cm),77.14285714285714
+59,Brain Boost Brownie Bites [A],Brain Boost Brownie Bites,A,1,Bites,13.2,24.2,True,True,split_drawer_eye,R1-DRW-6-P1,1,Right(60-120cm),94.28571428571428
+60,Brain Boost Brownie Bites [A],Brain Boost Brownie Bites,A,2,Bites,13.2,24.2,True,True,split_drawer_eye,R1-DRW-6-P1,1,Right(60-120cm),94.28571428571428
+39,Choco Chip Pumpkin Pie Clean Bites [A],Choco Chip Pumpkin Pie Clean Bites,A,1,Bites,10.0,17.8,True,True,split_drawer_eye,R1-DRW-6-P2,1,Right(60-120cm),94.28571428571428
+40,Choco Chip Pumpkin Pie Clean Bites [A],Choco Chip Pumpkin Pie Clean Bites,A,2,Bites,10.0,17.8,True,True,split_drawer_eye,R1-DRW-6-P2,1,Right(60-120cm),94.28571428571428
+41,Choco Chip Pumpkin Pie Clean Bites [B],Choco Chip Pumpkin Pie Clean Bites,B,1,Bites,7.0,24.3,False,True,split_drawer_eye,R1-DRW-6-P3,1,Right(60-120cm),94.28571428571428
+42,Choco Chip Pumpkin Pie Clean Bites [C],Choco Chip Pumpkin Pie Clean Bites,C,1,Bites,12.0,8.0,True,True,split_drawer_eye,R1-DRW-6-P4,1,Right(60-120cm),94.28571428571428
+43,Choco Chip Pumpkin Pie Clean Bites [C],Choco Chip Pumpkin Pie Clean Bites,C,2,Bites,12.0,8.0,True,True,split_drawer_eye,R1-DRW-6-P4,1,Right(60-120cm),94.28571428571428
+106,Original Breakfast Cookie [A],Original Breakfast Cookie,A,1,Cookies,15.0,8.0,True,True,split_drawer_eye,R1-DRW-7-P1,1,Right(60-120cm),111.42857142857143
+107,Original Breakfast Cookie [A],Original Breakfast Cookie,A,2,Cookies,15.0,8.0,True,True,split_drawer_eye,R1-DRW-7-P1,1,Right(60-120cm),111.42857142857143
+108,Original Breakfast Cookie [B],Original Breakfast Cookie,B,1,Cookies,18.5,14.0,True,True,split_drawer_eye,R1-DRW-7-P2,1,Right(60-120cm),111.42857142857143
+109,Original Breakfast Cookie [B],Original Breakfast Cookie,B,2,Cookies,18.5,14.0,True,True,split_drawer_eye,R1-DRW-7-P2,1,Right(60-120cm),111.42857142857143
+25,Sunshine Cookie Dough Bites [A],Sunshine Cookie Dough Bites,A,1,Bites,11.7,18.0,True,True,split_drawer_eye,R1-DRW-7-P3,1,Right(60-120cm),111.42857142857143
+26,Sunshine Cookie Dough Bites [B],Sunshine Cookie Dough Bites,B,1,Bites,13.3,25.0,True,True,split_drawer_eye,R1-DRW-7-P4,1,Right(60-120cm),111.42857142857143
+27,Sunshine Cookie Dough Bites [B],Sunshine Cookie Dough Bites,B,2,Bites,13.3,25.0,True,True,split_drawer_eye,R1-DRW-7-P4,1,Right(60-120cm),111.42857142857143
+44,Choco Chip Pumpkin Pie Clean Bites [C],Choco Chip Pumpkin Pie Clean Bites,C,3,Bites,12.0,8.0,True,True,split_drawer_mid,R2-DRW-1-P1,2,Left(0-60cm),8.571428571428571
+61,Brain Boost Brownie Bites [A],Brain Boost Brownie Bites,A,3,Bites,13.2,24.2,True,True,split_drawer_mid,R2-DRW-1-P2,2,Left(0-60cm),8.571428571428571
+76,Cookie Dough Clean Bites [B],Cookie Dough Clean Bites,B,3,Bites,15.0,8.0,True,True,split_drawer_mid,R2-DRW-1-P3,2,Left(0-60cm),8.571428571428571
+121,Peppermint Kisses [A],Peppermint Kisses,A,3,Bites,10.0,12.0,True,True,split_drawer_mid,R2-DRW-1-P4,2,Left(0-60cm),8.571428571428571
+23,Peppermint Clean Bites [B],Peppermint Clean Bites,B,3,Bites,11.8,8.2,True,True,split_drawer_mid,R2-DRW-2-P1,2,Left(0-60cm),25.714285714285715
+24,Peppermint Clean Bites [B],Peppermint Clean Bites,B,4,Bites,11.8,8.2,True,True,split_drawer_mid,R2-DRW-2-P1,2,Left(0-60cm),25.714285714285715
+37,Lemon and Rosemary Clean Bites [B],Lemon and Rosemary Clean Bites,B,3,Bites,9.5,8.0,True,True,split_drawer_mid,R2-DRW-2-P2,2,Left(0-60cm),25.714285714285715
+38,Lemon and Rosemary Clean Bites [B],Lemon and Rosemary Clean Bites,B,4,Bites,9.5,8.0,True,True,split_drawer_mid,R2-DRW-2-P2,2,Left(0-60cm),25.714285714285715
+81,Orange Lavendar Clean Bites [B],Orange Lavendar Clean Bites,B,3,Bites,9.0,8.0,True,True,split_drawer_mid,R2-DRW-2-P3,2,Left(0-60cm),25.714285714285715
+82,Orange Lavendar Clean Bites [B],Orange Lavendar Clean Bites,B,4,Bites,9.0,8.0,True,True,split_drawer_mid,R2-DRW-2-P3,2,Left(0-60cm),25.714285714285715
+115,Carrot Cake Clean Bites [A],Carrot Cake Clean Bites,A,3,Bites,13.7,8.0,True,True,split_drawer_mid,R2-DRW-2-P4,2,Left(0-60cm),25.714285714285715
+116,Carrot Cake Clean Bites [A],Carrot Cake Clean Bites,A,4,Bites,13.7,8.0,True,True,split_drawer_mid,R2-DRW-2-P4,2,Left(0-60cm),25.714285714285715
+96,Sublime Mango [A],Sublime Mango,A,2,Other,11.6,8.0,True,False,split_drawer_mid,R2-DRW-3-P1,2,Left(0-60cm),42.857142857142854
+97,Sublime Mango [A],Sublime Mango,A,3,Other,11.6,8.0,True,False,split_drawer_mid,R2-DRW-3-P1,2,Left(0-60cm),42.857142857142854
+99,Chia Leah Hand Crafted Soup [A],Chia Leah Hand Crafted Soup,A,2,Soup,10.0,8.0,True,False,split_drawer_mid,R2-DRW-3-P2,2,Left(0-60cm),42.857142857142854
+100,Chia Leah Hand Crafted Soup [A],Chia Leah Hand Crafted Soup,A,3,Soup,10.0,8.0,True,False,split_drawer_mid,R2-DRW-3-P2,2,Left(0-60cm),42.857142857142854
+102,Hummus Tumeric and Black Pepper [A],Hummus Tumeric and Black Pepper,A,2,Hummus,8.0,8.0,True,False,split_drawer_mid,R2-DRW-3-P3,2,Left(0-60cm),42.857142857142854
+103,Hummus Tumeric and Black Pepper [A],Hummus Tumeric and Black Pepper,A,3,Hummus,8.0,8.0,True,False,split_drawer_mid,R2-DRW-3-P3,2,Left(0-60cm),42.857142857142854
+13,Crumble: Super Food Dark Chocolate Bark [A],Crumble: Super Food Dark Chocolate Bark,A,2,Chocolate bark,11.0,4.5,True,False,split_drawer_mid,R2-DRW-3-P4,2,Left(0-60cm),42.857142857142854
+45,Better Buckeyes Bites [A],Better Buckeyes Bites,A,1,Bites,14.2,12.0,True,True,split_drawer_mid,R2-DRW-4-P1,2,Right(60-120cm),60.0
+104,Pumpkin & Chocolate Chip Breakfast Cookie [A],Pumpkin & Chocolate Chip Breakfast Cookie,A,1,Cookies,10.0,8.0,True,True,split_drawer_mid,R2-DRW-4-P2,2,Right(60-120cm),60.0
+29,Garlic and Onion Clean Crackers [A],Garlic and Onion Clean Crackers,A,2,Crackers,11.0,8.5,True,False,split_drawer_mid,R2-DRW-4-P3,2,Right(60-120cm),60.0
+30,Garlic and Onion Clean Crackers [A],Garlic and Onion Clean Crackers,A,3,Crackers,11.0,8.5,True,False,split_drawer_mid,R2-DRW-4-P3,2,Right(60-120cm),60.0
+31,Garlic and Onion Clean Crackers [A],Garlic and Onion Clean Crackers,A,4,Crackers,11.0,8.5,True,False,split_drawer_mid,R2-DRW-4-P3,2,Right(60-120cm),60.0
+48,Sweet + Spicy Granola [B],Sweet + Spicy Granola,B,2,Granola / sprinkle,12.0,6.5,True,False,split_drawer_mid,R2-DRW-4-P4,2,Right(60-120cm),60.0
+49,Sweet + Spicy Granola [B],Sweet + Spicy Granola,B,3,Granola / sprinkle,12.0,6.5,True,False,split_drawer_mid,R2-DRW-4-P4,2,Right(60-120cm),60.0
+50,Sweet + Spicy Granola [B],Sweet + Spicy Granola,B,4,Granola / sprinkle,12.0,6.5,True,False,split_drawer_mid,R2-DRW-4-P4,2,Right(60-120cm),60.0
+2,Peppermint Dark Chocolate Bark [B],Peppermint Dark Chocolate Bark,B,2,Chocolate bark,10.2,7.7,True,False,split_drawer_mid,R2-DRW-5-P1,2,Right(60-120cm),77.14285714285714
+3,Peppermint Dark Chocolate Bark [B],Peppermint Dark Chocolate Bark,B,3,Chocolate bark,10.2,7.7,True,False,split_drawer_mid,R2-DRW-5-P1,2,Right(60-120cm),77.14285714285714
+10,Super Food Dark Chocolate Bark (Nut Free) [B],Super Food Dark Chocolate Bark (Nut Free),B,2,Chocolate bark,8.5,8.0,True,False,split_drawer_mid,R2-DRW-5-P2,2,Right(60-120cm),77.14285714285714
+11,Super Food Dark Chocolate Bark (Nut Free) [B],Super Food Dark Chocolate Bark (Nut Free),B,3,Chocolate bark,8.5,8.0,True,False,split_drawer_mid,R2-DRW-5-P2,2,Right(60-120cm),77.14285714285714
+84,Chia Leah Macro Bowl [A],Chia Leah Macro Bowl,A,2,Bowls,9.0,8.0,True,False,split_drawer_mid,R2-DRW-5-P3,2,Right(60-120cm),77.14285714285714
+85,Chia Leah Macro Bowl [A],Chia Leah Macro Bowl,A,3,Bowls,9.0,8.0,True,False,split_drawer_mid,R2-DRW-5-P3,2,Right(60-120cm),77.14285714285714
+93,Peanut Butter & Banana Overnight Oats [A],Peanut Butter & Banana Overnight Oats,A,2,Oats,9.5,8.0,True,False,split_drawer_mid,R2-DRW-5-P4,2,Right(60-120cm),77.14285714285714
+94,Peanut Butter & Banana Overnight Oats [A],Peanut Butter & Banana Overnight Oats,A,3,Oats,9.5,8.0,True,False,split_drawer_mid,R2-DRW-5-P4,2,Right(60-120cm),77.14285714285714
+18,Mint Dark Chocolate Bark [B],Mint Dark Chocolate Bark,B,2,Chocolate bark,10.0,7.2,True,False,split_drawer_mid,R2-DRW-6-P1,2,Right(60-120cm),94.28571428571428
+87,Lemon Blueberry Pie Bowl [A],Lemon Blueberry Pie Bowl,A,2,Bowls,9.2,8.2,True,False,split_drawer_mid,R2-DRW-6-P2,2,Right(60-120cm),94.28571428571428
+67,PB & J Clean Bites [B],PB & J Clean Bites,B,3,Bites,10.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P3,2,Right(60-120cm),94.28571428571428
+68,PB & J Clean Bites [B],PB & J Clean Bites,B,4,Bites,10.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P3,2,Right(60-120cm),94.28571428571428
+69,PB & J Clean Bites [B],PB & J Clean Bites,B,5,Bites,10.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P3,2,Right(60-120cm),94.28571428571428
+70,PB & J Clean Bites [B],PB & J Clean Bites,B,6,Bites,10.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P3,2,Right(60-120cm),94.28571428571428
+71,PB & J Clean Bites [B],PB & J Clean Bites,B,7,Bites,10.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P3,2,Right(60-120cm),94.28571428571428
+55,Cherry Bomb Clean Bites [B],Cherry Bomb Clean Bites,B,3,Bites,13.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P4,2,Right(60-120cm),94.28571428571428
+56,Cherry Bomb Clean Bites [B],Cherry Bomb Clean Bites,B,4,Bites,13.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P4,2,Right(60-120cm),94.28571428571428
+57,Cherry Bomb Clean Bites [B],Cherry Bomb Clean Bites,B,5,Bites,13.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P4,2,Right(60-120cm),94.28571428571428
+58,Cherry Bomb Clean Bites [B],Cherry Bomb Clean Bites,B,6,Bites,13.0,8.0,True,True,split_drawer_mid,R2-DRW-6-P4,2,Right(60-120cm),94.28571428571428
+124,Zucchini Breakfast Cookie [A],Zucchini Breakfast Cookie,A,3,Cookies,11.0,7.0,True,True,split_drawer_mid,R2-DRW-7-P1,2,Right(60-120cm),111.42857142857143
