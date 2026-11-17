@@ -16,7 +16,7 @@ def _():
     if str(root_dir) not in sys.path:
         sys.path.insert(0, str(root_dir))
 
-    from markov_analysis import STATE_NAMES, analyze_scenario_markov
+    from markov_analysis import analyze_scenario_markov
     from orientation_search import (
         MODULAR_TOPOLOGIES,
         POSITIONING_POLICIES,
@@ -24,11 +24,8 @@ def _():
     )
     from sim_config import (
         DEFAULT_CSV_PATH,
-        BehavioralConfig,
         ExperimentScenario,
         RollItem,
-        RushHourConfig,
-        ShelfGeometryConfig,
         build_default_experiments,
         build_mechanism_specs,
         load_roll_inventory,
@@ -478,8 +475,8 @@ def _(
     for _rho in sorted(_acc_piv.index):
         _sweep_rows.append({
             "Fill Target": f"{_rho:.0%}",
-            "Mid 7D(4P) + Btm 1B+4D(4P) Acc": f"{_acc_piv.loc[_rho, 'TOPO01_Mid7D4P_Btm1B4D4P']:.1%}",
-            "Mid 7D(4P) + Btm 1B+4D(4P) Effort": f"{_lat_piv.loc[_rho, 'TOPO01_Mid7D4P_Btm1B4D4P'] / _base_lat:.2f}x",
+            "Mid 7D(4P) + Btm 7D(4P) Acc": f"{_acc_piv.loc[_rho, 'TOPO001_Mid7D4P_Btm7D4P']:.1%}",
+            "Mid 7D(4P) + Btm 7D(4P) Effort": f"{_lat_piv.loc[_rho, 'TOPO001_Mid7D4P_Btm7D4P'] / _base_lat:.2f}x",
             "Mid 7D(4P) + Btm 2B Acc": f"{_acc_piv.loc[_rho, 'TOPO07_Mid7D4P_Btm2B']:.1%}",
             "Mid 7D(4P) + Btm 2B Effort": f"{_lat_piv.loc[_rho, 'TOPO07_Mid7D4P_Btm2B'] / _base_lat:.2f}x",
             "Baseline COI Acc": f"{_acc_piv.loc[_rho, 'TOPO07_BaselineCOI']:.1%}",
@@ -515,7 +512,7 @@ def _(
             },
         ),
         mo.md(
-            "`Same-Drawer A/B/C` gives the share of co-retrieved product variants placed in one drawer, while `Cross-Shelf Mixup` tracks rolls ending up on the wrong vertical shelf tier by Cycle 1,000. Only `ORI-001` (`87.9%`, `0.33x` effort) and `ORI-105` (`84.0%`, `0.34x` effort) remain above the `80%` usability floor across all 20 shifts; swapping bottom drawers for open wire bins (`ORI-245`, `ORI-246`, `ORI-325`) drops final accuracy into the `69%` to `78%` band."
+            "`Same-Drawer A/B/C` gives the share of co-retrieved product variants placed in one drawer, while `Cross-Shelf Mixup` tracks rolls ending up on the wrong vertical shelf tier by Cycle 1,000. Only `ORI-001` (`86.9%`, `0.32x` effort) and `ORI-105` (`83.5%`, `0.34x` effort) remain above the `80%` usability floor across all 20 shifts; swapping bottom drawers for open wire bins (`ORI-245`, `ORI-246`, `ORI-325`) drops final accuracy into the `68%` to `77%` band."
         ),
         mo.image(
             src=_fig_dir / "fig1_entropy_decay.png",
@@ -526,7 +523,7 @@ def _(
             "*Figure 1: Home-slot accuracy across 1,000 work cycles for key benchmark configurations.*"
         ),
         mo.md(
-            "Each sawtooth dip marks one morning batch rush (cycles 1 to 22 of each 50-cycle shift), and each upward tick marks the calmer afternoon hours when workers notice misplaced rolls while opening drawers and move them home. In `ORI-001` (`Top: Peg | Mid: 7D_4P | Btm: 7D_4P`, ending at `87.9%`) and `ORI-105` (`Mid: 7D_4P | Btm: 7D_3P`, ending at `84.0%`), calm-period recovery matches rush slip rates, so home accuracy holds steady above the `80%` usability floor across all 20 shifts. Setups that include open wire bins (`ORI-245` at `77.6%`, `ORI-246` at `77.1%`, and `ORI-325` at `69.5%`) settle into lower bands beneath `80%` because bins keep absorbing hurried returns. When compartments are overfilled (`90%` fill in `ORI-258`, `24.9%` final accuracy, crossing `80%` around cycle `36.9`) or drawer labels are hard to read (`ORI-099`, `32.1%` final accuracy, crossing around cycle `58.7`), mistakes pile up faster than calm hours can clear them."
+            "Each sawtooth dip marks one morning batch rush (cycles 1 to 22 of each 50-cycle shift), and each upward tick marks the calmer afternoon hours when workers notice misplaced rolls while opening drawers and move them home. In `ORI-001` (`Top: Peg | Mid: 7D_4P | Btm: 7D_4P`, ending at `86.9%`) and `ORI-105` (`Mid: 7D_4P | Btm: 7D_3P`, ending at `83.5%`), calm-period recovery matches rush slip rates, so home accuracy holds steady above the `80%` usability floor across all 20 shifts. Setups that include open wire bins (`ORI-245` at `77.1%`, `ORI-246` at `76.1%`, and `ORI-325` at `68.5%`) settle into lower bands beneath `80%` because bins keep absorbing hurried returns. When compartments are overfilled (`90%` fill in `ORI-258`, `23.5%` final accuracy, crossing `80%` around cycle `35.1`) or drawer labels are hard to read (`ORI-099`, `32.0%` final accuracy, crossing around cycle `58.0`), mistakes pile up faster than calm hours can clear them."
         ),
         mo.image(
             src=_fig_dir / "fig2_cross_tier_contamination.png",
@@ -537,7 +534,7 @@ def _(
             "*Figure 2: Roll location state distribution over time comparing unorganized baseline ORI-258 against optimal layout ORI-001.*"
         ),
         mo.md(
-            "Stacking all 128 rolls by location contrasts how `ORI-258` (left) and `ORI-001` (right) drift over 20 shifts. Splitting `A`, `B`, and `C` sibling variants across shelves by roll height in `ORI-258` forces workers to pull from the overhead pegboard and low wire bins on routine jobs, so rushed returns get dropped into middle drawers (`18.8%` Mid Dump and `41.4%` total cross-shelf mixup at Cycle 1,000) while only `24.9%` of rolls remain in their home compartments. Keeping `A`, `B`, and `C` rolls together inside middle-shelf `2x2` drawers in `ORI-001` cuts out most cross-shelf travel, holding `87.9%` of rolls at home (`2.0%` cross-shelf mixup) with most errors limited to small slips into neighboring lanes of the same drawer."
+            "Stacking all 128 rolls by location contrasts how `ORI-258` (left) and `ORI-001` (right) drift over 20 shifts. Splitting `A`, `B`, and `C` sibling variants across shelves by roll height in `ORI-258` forces workers to pull from the overhead pegboard and low wire bins on routine jobs, so rushed returns get dropped into middle drawers (`19.4%` Mid Dump and `41.6%` total cross-shelf mixup at Cycle 1,000) while only `23.5%` of rolls remain in their home compartments. Keeping `A`, `B`, and `C` rolls together inside middle-shelf `2x2` drawers in `ORI-001` cuts out most cross-shelf travel, holding `86.9%` of rolls at home (`1.8%` cross-shelf mixup) with most errors limited to small slips into neighboring lanes of the same drawer."
         ),
         mo.image(
             src=_fig_dir / "fig3_slot_heatmap.png",
@@ -548,7 +545,7 @@ def _(
             "*Figure 3: Compartment-level misplaced roll count and total roll occupancy at Cycle 1,000.*"
         ),
         mo.md(
-            "Looking compartment by compartment shows where misplaced rolls physically land. In `ORI-258` (left), the eight bottom wire-bin zones collect `4.26` to `5.18` foreign rolls per zone (dark red), acting as catch-all dump chests, while almost every middle-shelf drawer lane carries `1.58` to `2.44` out-of-place rolls. The overhead pegs stay near `0.08` to `0.36` misplaced rolls because workers avoid reaching up to hang stray rolls on pins and drop them lower instead. In `ORI-001` (right), every tier stays light (`0.16` to `0.50` per middle lane, `0.00` to `0.64` per bottom lane, and `0.00` to `0.12` per overhead peg), because dedicated `2x2` lanes block rolls from pooling in any single bin or drawer."
+            "Looking compartment by compartment shows where misplaced rolls physically land. In `ORI-258` (left), the eight bottom wire-bin zones collect `4.32` to `4.86` foreign rolls per zone (dark red), acting as catch-all dump chests, while middle-shelf drawer lanes carry up to `2.70` out-of-place rolls. The overhead pegs stay near `0.08` to `0.50` misplaced rolls because workers avoid reaching up to hang stray rolls on pins and drop them lower instead. In `ORI-001` (right), every tier stays light (`0.20` to `0.56` per middle lane, `0.00` to `0.56` per bottom lane, and `0.00` to `0.12` per overhead peg), because dedicated `2x2` lanes block rolls from pooling in any single bin or drawer."
         ),
         mo.md("### Capacity tipping point (70% to 98% target fill)"),
         mo.ui.table(
@@ -560,7 +557,7 @@ def _(
             text_justify_columns={c: "right" for c in _sweep_df.columns},
         ),
         mo.md(
-            "Compares two organized layouts against the height-split COI baseline from `70%` to `98%` target fill (25 replications per point). Staying at or below `80%` fill keeps accuracy near its plateau before shrinking clearance raises crowding errors past `85%` fill."
+            "Compares `ORI-001` (`Mid: 7D_4P | Btm: 7D_4P`) and `Mid: 7D_4P | Btm: 2B` against the height-split COI baseline from `70%` to `98%` target fill (25 replications per point). Staying at or below `80%` fill keeps `ORI-001` comfortably above `87%` before shrinking clearance pushes it down toward the `80%` floor past `90%` fill."
         ),
         mo.image(
             src=_fig_dir / "fig4_capacity_and_partitions.png",
@@ -571,7 +568,7 @@ def _(
             "*Figure 4: Impact of compartment fill ratio on steady-state accuracy alongside benchmark layout comparison.*"
         ),
         mo.md(
-            "The left chart shows how target compartment fill affects Cycle 1,000 accuracy between `70%` and `98%` fill. In organized layouts (`Mid: 7D_4P | Btm: 1B_4D_4P`, declining from `86.3%` at `70%` fill to `83.7%` at `80%`, `80.7%` at `85%`, and `76.3%` at `95%`; `Mid: 7D_4P | Btm: 2B`, declining from `81.8%` to `79.3%` at `80%` and `72.2%` at `95%`), keeping `15%` to `25%` free buffer space preserves clear drop openings before lanes saturate and spillover flattens the tail. Leaving extra room fails to rescue the unorganized `COI` baseline (`23.3%` to `32.3%` across every fill level). The right bar chart steps through all 9 reference setups sorted by accuracy and relative effort (`1.00x = ORI-258`): improving label clarity lifts `ORI-099` (`32.1%`, `0.81x`) to `ORI-085` (`75.2%`, `0.41x`); swapping open `2B` bins for flush single-drawer hybrids (`ORI-246` and `ORI-245`) reaches `77.1%` to `77.6%` (`0.37x`); and replacing bottom wire bins with full modular drawers pushes `ORI-105` to `84.0%` (`0.34x`) and `ORI-001` to `87.9%` (`0.33x`)."
+            "The left chart sweeps target compartment fill between `70%` and `98%`. Our winning layout `ORI-001` (`Top: Peg | Mid: 7D_4P | Btm: 7D_4P`) starts at `90.1%` (`70%` fill), holds `89.1%` to `84.7%` across the `75%` to `85%` target buffer (`87.8%` at `80%`), and drops below the `80%` usability floor once pushed past `90%` fill (`78.3%` at `95%` to `98%`). Swapping the bottom drawers for open wire bins (`Mid: 7D_4P | Btm: 2B`) stays around `79.9%` to `75.2%` inside the same buffer (`70.4%` at `98%`), and extra shelf space fails to rescue the unorganized `COI` baseline (`21.6%` to `31.3%` across every fill level). The right bar chart steps through all 9 reference setups sorted by accuracy and relative effort (`1.00x = ORI-258`): improving label clarity lifts `ORI-099` (`32.0%`, `0.81x`) to `ORI-085` (`73.2%`, `0.41x`); swapping open `2B` bins for flush single-drawer hybrids (`ORI-246` and `ORI-245`) reaches `76.1%` to `77.1%` (`0.37x`); and replacing bottom wire bins with full modular drawers pushes `ORI-105` to `83.5%` (`0.34x`) and `ORI-001` to `86.9%` (`0.32x`)."
         ),
     ])
     return (all_benchmarks_by_id,)
@@ -943,7 +940,7 @@ def _(
             text_justify_columns=_ori_justify,
         ),
         mo.md(
-            "A configuration is Pareto-optimal when no other tested layout beats it on both accuracy and retrieval/return effort at once. Because `ORI-001` reaches both the highest accuracy (`86.3%` in the 4-rep search) and lowest relative effort (`0.33x`), it is the only non-dominated layout on the frontier."
+            "A configuration is Pareto-optimal when no other tested layout beats it on both accuracy and retrieval/return effort at once. Because `ORI-001` reaches both the highest accuracy (`88.7%` in the 4-rep search) and lowest relative effort (`0.32x`), it is the only non-dominated layout on the frontier."
         ),
         mo.md(f"### All {len(ori_df)} tested orientations"),
         mo.ui.table(
@@ -989,11 +986,11 @@ def _(mo):
     mo.md(r"""
     ## Design direction suggested by the model
 
-    The simulation points toward a uniform drawer station paired with product-family slotting: build the middle and bottom shelves with seven `2x2` split drawers per tier (`TOPO-001`: `Top: Peg | Mid: 7D_4P | Btm: 7D_4P`), use only one `2x2` lane style below the 32-peg top sliding pegboard so workers follow consistent visual boundaries, and group matched `A`, `B`, and `C` rolls from the same food product in side-by-side lanes of the same middle-shelf drawer (`adjacent_partition`). Placing rush-priority kits (`Bites`, `Salad`, `Breakfast Cookies`) in the center drawers (`center_out`), capping working lane fill around `75%` to `80%` by storing duplicate reserve copies on the bottom shelf (`hybrid_reserve`), keeping coreless SKUs (`CCP-B`) in enclosed drawers, hanging lower-frequency cored stock on the top sliding pegboard (`1` tall roll or up to `2` short rolls per peg), and maintaining crisp lane labels prevents dump-chest drift while cutting search and reach effort to about one third (`0.33x`) of an unorganized rack. Where existing `3P` (`2:1:1`) dividers are already on hand, putting them on the lower reserve shelf (`TOPO-002` / `ORI-105`, `84.0%`) keeps accuracy comfortably above `80%`, whereas open wire bins on the middle or bottom shelf consistently drag accuracy down into the `69%` to `78%` range.
+    The simulation points toward a uniform drawer station paired with product-family slotting: build the middle and bottom shelves with seven `2x2` split drawers per tier (`TOPO-001`: `Top: Peg | Mid: 7D_4P | Btm: 7D_4P`), use only one `2x2` lane style below the 32-peg top sliding pegboard so workers follow consistent visual boundaries, and group matched `A`, `B`, and `C` rolls from the same food product in side-by-side lanes of the same middle-shelf drawer (`adjacent_partition`). Placing rush-priority kits (`Bites`, `Salad`, `Breakfast Cookies`) in the center drawers (`center_out`), capping working lane fill around `75%` to `80%` by storing duplicate reserve copies on the bottom shelf (`hybrid_reserve`), keeping coreless SKUs (`CCP-B`) in enclosed drawers, hanging lower-frequency cored stock on the top sliding pegboard (`1` tall roll or up to `2` short rolls per peg), and maintaining crisp lane labels prevents dump-chest drift while cutting search and reach effort to about one third (`0.32x`) of an unorganized rack. Where existing `3P` (`2:1:1`) dividers are already on hand, putting them on the lower reserve shelf (`TOPO-002` / `ORI-105`, `83.5%`) keeps accuracy comfortably above `80%`, whereas open wire bins on the middle or bottom shelf consistently drag accuracy down into the `68%` to `77%` range.
 
     ## Model limitations
 
-    First, because no stopwatch timing study exists from the packing floor yet, effort is evaluated as a ratio relative to the `ORI-258` baseline (`0.33x` vs. `1.00x`) using Fitts's movement and rummaging terms instead of calibrated shop-floor seconds. Second, behavioral weights are grounded in published human-reliability handbooks (`THERP`), ergonomic reach data, and warehouse/retail studies (`[2-7]`) instead of plant error logs, so comparisons across hardware topologies and slotting policies are meaningful while exact Cycle 1,000 percentages (`87.9%` vs. `84.0%`) should be read as comparative model estimates rather than literal error audits. Third, inventory stays fixed at `128` physical rolls across `60` SKUs over `1,000` cycles, without modeling partial roll depletion, mid-shift restocking, label-roll replacement from boxes, or two operators competing for space in front of the same `120 cm` bay. Finally, the six-state Markov chain relies on tier-level average parameters (`TVD <= 0.0021` against sample paths) and depends on the Monte Carlo engine (`50` runs for benchmarks, `4` runs per candidate across the `500` search combinations) to capture exact lane-by-lane hard capacities and `3P` vs. `4P` geometry.
+    First, because no stopwatch timing study exists from the packing floor yet, effort is evaluated as a ratio relative to the `ORI-258` baseline (`0.32x` vs. `1.00x`) using Fitts's movement and rummaging terms instead of calibrated shop-floor seconds. Second, behavioral weights are grounded in published human-reliability handbooks (`THERP`), ergonomic reach data, and warehouse/retail studies (`[2-7]`) instead of plant error logs, so comparisons across hardware topologies and slotting policies are meaningful while exact Cycle 1,000 percentages (`86.9%` vs. `83.5%`) should be read as comparative model estimates rather than literal error audits. Third, inventory stays fixed at `128` physical rolls across `60` SKUs over `1,000` cycles, without modeling partial roll depletion, mid-shift restocking, label-roll replacement from boxes, or two operators competing for space in front of the same `120 cm` bay. Finally, the six-state Markov chain relies on tier-level average parameters (`TVD <= 0.0021` against sample paths) and depends on the Monte Carlo engine (`50` runs for benchmarks, `4` runs per candidate across the `500` search combinations) to capture exact lane-by-lane hard capacities and `3P` vs. `4P` geometry.
     """)
     return
 

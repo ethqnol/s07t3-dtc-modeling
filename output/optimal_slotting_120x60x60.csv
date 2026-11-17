@@ -1,34 +1,34 @@
 roll_id,sku_code,product_name,variant_code,copy_index,category,outer_diameter_cm,roll_height_cm,has_core,is_rush_priority,assigned_mechanism,assigned_slot,home_tier,bay_side,x_center_cm
-32,Garlic and Onion Clean Crackers [B],Garlic and Onion Clean Crackers,B,1,Crackers,16.0,22.0,True,False,pegboard_ovh,R3-PEG-R1-C1,3,Left(0-60cm),7.5
-28,Garlic and Onion Clean Crackers [A],Garlic and Onion Clean Crackers,A,1,Crackers,11.0,8.5,True,False,pegboard_ovh,R3-PEG-R1-C2,3,Left(0-60cm),22.5
-46,Sweet + Spicy Granola [A],Sweet + Spicy Granola,A,1,Granola / sprinkle,14.3,22.1,True,False,pegboard_ovh,R3-PEG-R1-C3,3,Left(0-60cm),37.5
-47,Sweet + Spicy Granola [B],Sweet + Spicy Granola,B,1,Granola / sprinkle,12.0,6.5,True,False,pegboard_ovh,R3-PEG-R1-C4,3,Left(0-60cm),52.5
-98,Chia Leah Hand Crafted Soup [A],Chia Leah Hand Crafted Soup,A,1,Soup,10.0,8.0,True,False,pegboard_ovh,R3-PEG-R1-C5,3,Right(60-120cm),67.5
-83,Chia Leah Macro Bowl [A],Chia Leah Macro Bowl,A,1,Bowls,9.0,8.0,True,False,pegboard_ovh,R3-PEG-R1-C6,3,Right(60-120cm),82.5
-101,Hummus Tumeric and Black Pepper [A],Hummus Tumeric and Black Pepper,A,1,Hummus,8.0,8.0,True,False,pegboard_ovh,R3-PEG-R1-C7,3,Right(60-120cm),97.5
-92,Peanut Butter & Banana Overnight Oats [A],Peanut Butter & Banana Overnight Oats,A,1,Oats,9.5,8.0,True,False,pegboard_ovh,R3-PEG-R1-C8,3,Right(60-120cm),112.5
-0,Peppermint Dark Chocolate Bark [A],Peppermint Dark Chocolate Bark,A,1,Chocolate bark,8.7,16.0,True,False,pegboard_ovh,R3-PEG-R2-C1,3,Left(0-60cm),7.5
-1,Peppermint Dark Chocolate Bark [B],Peppermint Dark Chocolate Bark,B,1,Chocolate bark,10.2,7.7,True,False,pegboard_ovh,R3-PEG-R2-C2,3,Left(0-60cm),22.5
-95,Sublime Mango [A],Sublime Mango,A,1,Other,11.6,8.0,True,False,pegboard_ovh,R3-PEG-R2-C3,3,Left(0-60cm),37.5
-8,Super Food Dark Chocolate Bark (Nut Free) [A],Super Food Dark Chocolate Bark (Nut Free),A,1,Chocolate bark,10.6,22.0,True,False,pegboard_ovh,R3-PEG-R2-C4,3,Left(0-60cm),52.5
-9,Super Food Dark Chocolate Bark (Nut Free) [B],Super Food Dark Chocolate Bark (Nut Free),B,1,Chocolate bark,8.5,8.0,True,False,pegboard_ovh,R3-PEG-R2-C5,3,Right(60-120cm),67.5
-15,Dark Chocolate Bark Ingredient Sticker [A],Dark Chocolate Bark Ingredient Sticker,A,1,Ingredient sticker,8.5,13.5,True,False,pegboard_ovh,R3-PEG-R2-C6,3,Right(60-120cm),82.5
-14,Peppermint Dark Chocolate Bark Ingredient Sticker [A],Peppermint Dark Chocolate Bark Ingredient Sticker,A,1,Ingredient sticker,8.7,14.0,True,False,pegboard_ovh,R3-PEG-R2-C7,3,Right(60-120cm),97.5
-12,Crumble: Super Food Dark Chocolate Bark [A],Crumble: Super Food Dark Chocolate Bark,A,1,Chocolate bark,11.0,4.5,True,False,pegboard_ovh,R3-PEG-R2-C8,3,Right(60-120cm),112.5
-86,Lemon Blueberry Pie Bowl [A],Lemon Blueberry Pie Bowl,A,1,Bowls,9.2,8.2,True,False,pegboard_ovh,R3-PEG-R3-C1,3,Left(0-60cm),7.5
-16,Mint Dark Chocolate Bark [A],Mint Dark Chocolate Bark,A,1,Chocolate bark,12.6,22.2,True,False,pegboard_ovh,R3-PEG-R3-C2,3,Left(0-60cm),22.5
-17,Mint Dark Chocolate Bark [B],Mint Dark Chocolate Bark,B,1,Chocolate bark,10.0,7.2,True,False,pegboard_ovh,R3-PEG-R3-C3,3,Left(0-60cm),37.5
-4,All You Need Is Love [A],All You Need Is Love,A,1,Other,9.0,16.0,True,False,pegboard_ovh,R3-PEG-R3-C4,3,Left(0-60cm),52.5
-125,Braniac Cookies [A],Braniac Cookies,A,1,Cookies,15.0,8.0,True,False,pegboard_ovh,R3-PEG-R3-C5,3,Right(60-120cm),67.5
-105,Chocolate Chip Cherry Pie Bowl [A],Chocolate Chip Cherry Pie Bowl,A,1,Bowls,10.0,8.0,True,False,pegboard_ovh,R3-PEG-R3-C6,3,Right(60-120cm),82.5
-33,Maple & Olive Oil Quinoa Sprinkle [A],Maple & Olive Oil Quinoa Sprinkle,A,1,Granola / sprinkle,12.5,22.0,True,False,pegboard_ovh,R3-PEG-R3-C7,3,Right(60-120cm),97.5
-19,Roasted Carrot Ginger Soup [A],Roasted Carrot Ginger Soup,A,1,Soup,8.3,22.2,True,False,pegboard_ovh,R3-PEG-R3-C8,3,Right(60-120cm),112.5
-90,Roasted Beet Hummus [A],Roasted Beet Hummus,A,1,Hummus,13.0,8.3,True,False,pegboard_ovh,R3-PEG-R4-C1,3,Left(0-60cm),7.5
-91,Roasted Beet Hummus [B],Roasted Beet Hummus,B,1,Hummus,13.5,8.5,True,False,pegboard_ovh,R3-PEG-R4-C2,3,Left(0-60cm),22.5
-62,Rosemary Boost Clean Crackers [A],Rosemary Boost Clean Crackers,A,1,Crackers,12.3,22.0,True,False,pegboard_ovh,R3-PEG-R4-C3,3,Left(0-60cm),37.5
-5,Super Food Dark Chocolate Bark [A],Super Food Dark Chocolate Bark,A,1,Chocolate bark,8.5,16.0,True,False,pegboard_ovh,R3-PEG-R4-C4,3,Left(0-60cm),52.5
-6,Super Food Dark Chocolate Bark [B],Super Food Dark Chocolate Bark,B,1,Chocolate bark,10.0,22.0,True,False,pegboard_ovh,R3-PEG-R4-C5,3,Right(60-120cm),67.5
-7,Super Food Dark Chocolate Bark [C],Super Food Dark Chocolate Bark,C,1,Chocolate bark,9.0,8.0,True,False,pegboard_ovh,R3-PEG-R4-C6,3,Right(60-120cm),82.5
+32,Garlic and Onion Clean Crackers [B],Garlic and Onion Clean Crackers,B,1,Crackers,16.0,22.0,True,False,pegboard_ovh,R3-PEG-R1-C1,3,Left(0-60cm),15.0
+28,Garlic and Onion Clean Crackers [A],Garlic and Onion Clean Crackers,A,1,Crackers,11.0,8.5,True,False,pegboard_ovh,R3-PEG-R1-C2,3,Left(0-60cm),45.0
+46,Sweet + Spicy Granola [A],Sweet + Spicy Granola,A,1,Granola / sprinkle,14.3,22.1,True,False,pegboard_ovh,R3-PEG-R1-C3,3,Right(60-120cm),75.0
+47,Sweet + Spicy Granola [B],Sweet + Spicy Granola,B,1,Granola / sprinkle,12.0,6.5,True,False,pegboard_ovh,R3-PEG-R1-C4,3,Right(60-120cm),105.0
+98,Chia Leah Hand Crafted Soup [A],Chia Leah Hand Crafted Soup,A,1,Soup,10.0,8.0,True,False,pegboard_ovh,R3-PEG-R2-C1,3,Left(0-60cm),15.0
+83,Chia Leah Macro Bowl [A],Chia Leah Macro Bowl,A,1,Bowls,9.0,8.0,True,False,pegboard_ovh,R3-PEG-R2-C2,3,Left(0-60cm),45.0
+101,Hummus Tumeric and Black Pepper [A],Hummus Tumeric and Black Pepper,A,1,Hummus,8.0,8.0,True,False,pegboard_ovh,R3-PEG-R2-C3,3,Right(60-120cm),75.0
+92,Peanut Butter & Banana Overnight Oats [A],Peanut Butter & Banana Overnight Oats,A,1,Oats,9.5,8.0,True,False,pegboard_ovh,R3-PEG-R2-C4,3,Right(60-120cm),105.0
+0,Peppermint Dark Chocolate Bark [A],Peppermint Dark Chocolate Bark,A,1,Chocolate bark,8.7,16.0,True,False,pegboard_ovh,R3-PEG-R3-C1,3,Left(0-60cm),15.0
+1,Peppermint Dark Chocolate Bark [B],Peppermint Dark Chocolate Bark,B,1,Chocolate bark,10.2,7.7,True,False,pegboard_ovh,R3-PEG-R3-C2,3,Left(0-60cm),45.0
+95,Sublime Mango [A],Sublime Mango,A,1,Other,11.6,8.0,True,False,pegboard_ovh,R3-PEG-R3-C3,3,Right(60-120cm),75.0
+15,Dark Chocolate Bark Ingredient Sticker [A],Dark Chocolate Bark Ingredient Sticker,A,1,Ingredient sticker,8.5,13.5,True,False,pegboard_ovh,R3-PEG-R3-C4,3,Right(60-120cm),105.0
+8,Super Food Dark Chocolate Bark (Nut Free) [A],Super Food Dark Chocolate Bark (Nut Free),A,1,Chocolate bark,10.6,22.0,True,False,pegboard_ovh,R3-PEG-R4-C1,3,Left(0-60cm),15.0
+9,Super Food Dark Chocolate Bark (Nut Free) [B],Super Food Dark Chocolate Bark (Nut Free),B,1,Chocolate bark,8.5,8.0,True,False,pegboard_ovh,R3-PEG-R4-C2,3,Left(0-60cm),45.0
+14,Peppermint Dark Chocolate Bark Ingredient Sticker [A],Peppermint Dark Chocolate Bark Ingredient Sticker,A,1,Ingredient sticker,8.7,14.0,True,False,pegboard_ovh,R3-PEG-R4-C3,3,Right(60-120cm),75.0
+12,Crumble: Super Food Dark Chocolate Bark [A],Crumble: Super Food Dark Chocolate Bark,A,1,Chocolate bark,11.0,4.5,True,False,pegboard_ovh,R3-PEG-R4-C4,3,Right(60-120cm),105.0
+86,Lemon Blueberry Pie Bowl [A],Lemon Blueberry Pie Bowl,A,1,Bowls,9.2,8.2,True,False,pegboard_ovh,R3-PEG-R5-C1,3,Left(0-60cm),15.0
+16,Mint Dark Chocolate Bark [A],Mint Dark Chocolate Bark,A,1,Chocolate bark,12.6,22.2,True,False,pegboard_ovh,R3-PEG-R5-C2,3,Left(0-60cm),45.0
+17,Mint Dark Chocolate Bark [B],Mint Dark Chocolate Bark,B,1,Chocolate bark,10.0,7.2,True,False,pegboard_ovh,R3-PEG-R5-C3,3,Right(60-120cm),75.0
+4,All You Need Is Love [A],All You Need Is Love,A,1,Other,9.0,16.0,True,False,pegboard_ovh,R3-PEG-R5-C4,3,Right(60-120cm),105.0
+125,Braniac Cookies [A],Braniac Cookies,A,1,Cookies,15.0,8.0,True,False,pegboard_ovh,R3-PEG-R6-C1,3,Left(0-60cm),15.0
+105,Chocolate Chip Cherry Pie Bowl [A],Chocolate Chip Cherry Pie Bowl,A,1,Bowls,10.0,8.0,True,False,pegboard_ovh,R3-PEG-R6-C2,3,Left(0-60cm),45.0
+33,Maple & Olive Oil Quinoa Sprinkle [A],Maple & Olive Oil Quinoa Sprinkle,A,1,Granola / sprinkle,12.5,22.0,True,False,pegboard_ovh,R3-PEG-R6-C3,3,Right(60-120cm),75.0
+19,Roasted Carrot Ginger Soup [A],Roasted Carrot Ginger Soup,A,1,Soup,8.3,22.2,True,False,pegboard_ovh,R3-PEG-R6-C4,3,Right(60-120cm),105.0
+90,Roasted Beet Hummus [A],Roasted Beet Hummus,A,1,Hummus,13.0,8.3,True,False,pegboard_ovh,R3-PEG-R7-C1,3,Left(0-60cm),15.0
+91,Roasted Beet Hummus [B],Roasted Beet Hummus,B,1,Hummus,13.5,8.5,True,False,pegboard_ovh,R3-PEG-R7-C2,3,Left(0-60cm),45.0
+62,Rosemary Boost Clean Crackers [A],Rosemary Boost Clean Crackers,A,1,Crackers,12.3,22.0,True,False,pegboard_ovh,R3-PEG-R7-C3,3,Right(60-120cm),75.0
+5,Super Food Dark Chocolate Bark [A],Super Food Dark Chocolate Bark,A,1,Chocolate bark,8.5,16.0,True,False,pegboard_ovh,R3-PEG-R8-C1,3,Left(0-60cm),15.0
+6,Super Food Dark Chocolate Bark [B],Super Food Dark Chocolate Bark,B,1,Chocolate bark,10.0,22.0,True,False,pegboard_ovh,R3-PEG-R8-C2,3,Left(0-60cm),45.0
+7,Super Food Dark Chocolate Bark [C],Super Food Dark Chocolate Bark,C,1,Chocolate bark,9.0,8.0,True,False,pegboard_ovh,R3-PEG-R8-C3,3,Right(60-120cm),75.0
 88,Chia Leah Fresh Salad [A],Chia Leah Fresh Salad,A,1,Salad,11.0,8.0,True,True,split_drawer_eye,R1-DRW-1-P1,1,Left(0-60cm),8.571428571428571
 89,Chia Leah Fresh Salad [A],Chia Leah Fresh Salad,A,2,Salad,11.0,8.0,True,True,split_drawer_eye,R1-DRW-1-P1,1,Left(0-60cm),8.571428571428571
 110,Grain Free Brownie Bites [A],Grain Free Brownie Bites,A,1,Bites,14.0,7.0,True,True,split_drawer_eye,R1-DRW-1-P2,1,Left(0-60cm),8.571428571428571
